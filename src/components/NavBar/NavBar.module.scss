@@ -1,0 +1,26 @@
+.navBarContainer {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+    & > li:nth-child(1) {
+      a {
+        margin-left: 0;
+      }
+    }
+  }
+  a {
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+    font-family: "Inter";
+    margin-left: 1.5rem;
+  }
+}
