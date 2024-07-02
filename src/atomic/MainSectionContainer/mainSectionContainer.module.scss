@@ -1,0 +1,21 @@
+.mainSectionContainer {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  width: 100%;
+
+  & :first-child {
+    flex: 2;
+  }
+
+  & :nth-child(2) {
+    flex: 1;
+  }
+}
+
+@media (max-width: 680px) {
+  .mainSectionContainer {
+    flex-direction: column;
+  }
+}

@@ -17,6 +17,7 @@
   flex-direction: row;
   list-style-type: none;
   padding: 0;
+
   & > li:nth-child(1) {
     a {
       margin-left: 0;
@@ -44,9 +45,11 @@
     backdrop-filter: blur(3px) brightness(50%);
     z-index: 1;
   }
+
   .closedMenu {
     transform: translateX(calc(100vw + 10px));
   }
+
   .menuButton {
     display: block;
     position: absolute;
@@ -55,6 +58,7 @@
 
     z-index: 999;
   }
+
   .navLinksContainer {
     position: fixed;
     flex-direction: column;
