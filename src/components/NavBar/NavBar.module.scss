@@ -27,7 +27,7 @@
     color: var(--dark-grayish-blue);
     text-decoration: none;
     font-family: "Inter", Arial, Helvetica, sans-serif;
-    margin-left: 1.5rem;
+    margin-left: 24px;
   }
 }
 
@@ -73,10 +73,10 @@
 
     transition: transform linear 0.3s;
 
-    padding: 2rem;
+    padding: 32px;
     padding-top: 30vh;
 
-    gap: 1rem;
+    gap: 16px;
 
     a {
       margin: 0;

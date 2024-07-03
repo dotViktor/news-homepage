@@ -1,0 +1,18 @@
+.orangeButton {
+  border: none;
+  background-color: var(--soft-red);
+
+  width: fit-content;
+  height: fit-content;
+  padding: 8px 48px;
+
+  font-family: "Inter Black", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.3rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; // Added transition
+
+  &:hover {
+    background-color: var(--very-dark-blue);
+    color: var(--off-white);
+  }
+}

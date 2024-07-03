@@ -1,15 +1,15 @@
 .mainSectionContainer {
   display: flex;
-  gap: 2rem;
+  gap: 46px;
   flex-wrap: wrap;
 
   width: 100%;
 
-  & :first-child {
+  & > :first-child {
     flex: 2;
   }
 
-  & :nth-child(2) {
+  & > :nth-child(2) {
     flex: 1;
   }
 }

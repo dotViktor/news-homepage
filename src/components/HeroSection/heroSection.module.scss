@@ -1,8 +1,8 @@
 .heroContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: fit-content 1fr;
-  gap: 2rem;
+  grid-template-rows: auto 1fr;
+  gap: 32px;
 }
 
 .heroImageContainer {
@@ -14,6 +14,8 @@
 }
 
 .callToAction {
+  display: flex;
+  align-items: flex-end;
   h1 {
     font-size: 3rem;
     line-height: 3rem;
@@ -22,8 +24,18 @@
 }
 
 .heroDetails {
-  font-size: var(--paragraph-font-size);
-  color: var(--dark-grayish-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: var(--paragraph-font-size);
+    color: var(--dark-grayish-blue);
+
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 680px) {

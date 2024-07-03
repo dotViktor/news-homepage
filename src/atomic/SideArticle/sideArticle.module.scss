@@ -1,0 +1,27 @@
+.sideArticleContainer {
+  P {
+    color: var(--grayish-blue);
+    font-size: var(--paragraph-font-size);
+    line-height: 1.5rem;
+  }
+  h3 {
+    color: var(--off-white);
+    margin-bottom: 15px;
+
+    cursor: pointer;
+    transition: color ease 0.3s;
+    &:hover {
+      color: var(--soft-orange);
+    }
+  }
+  br {
+    color: red;
+  }
+}
+.articleSeperator {
+  width: 100%;
+  height: 0.5px;
+  background-color: var(--off-white);
+
+  margin: 25px 0;
+}
