@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# News Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+================
 
-Currently, two official plugins are available:
+This is a news homepage, the design was provided by [www.frontendmentor.io](http://www.frontendmentor.io).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Overview**
 
-## Expanding the ESLint configuration
+This project is a news homepage that displays a list of articles with their respective titles, images, and descriptions. The homepage also features a navigation bar with links to different sections of the website. This is all build using React, Typescript and SCSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## **Features**
 
-- Configure the top-level `parserOptions` property like this:
+- Responsive design for desktop and mobile devices
+- Navigation bar with links to different sections
+- List of articles with titles, images, and descriptions
+- Article details page with more information about each article
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## **Getting Started**
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To run this project, simply clone the repository and run `npm install` followed by `npm run dev` to start the development server.

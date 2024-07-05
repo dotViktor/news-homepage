@@ -28,6 +28,10 @@
     text-decoration: none;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     margin-left: 24px;
+
+    &:hover {
+      color: var(--soft-red);
+    }
   }
 }
 
