@@ -1,6 +1,5 @@
 import { FC } from "react";
 import styles from "./articleGlance.module.scss";
-import Image from "../../assets/images/image-retro-pcs.jpg";
 
 export interface ArticleGlanceProps {
   imgUrl: string;
