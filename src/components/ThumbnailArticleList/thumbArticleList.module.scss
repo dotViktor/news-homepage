@@ -1,0 +1,13 @@
+.thumbArticleListContainer {
+  display: flex;
+  width: 100%;
+
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 680px) {
+  .thumbArticleListContainer {
+    justify-content: center;
+  }
+}
