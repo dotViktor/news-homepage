@@ -1,8 +1,6 @@
 # News Homepage
 
-================
-
-This is a news homepage, the design was provided by [www.frontendmentor.io](http://www.frontendmentor.io).
+This is a non-fuctional news homepage, the design was provided by [www.frontendmentor.io](http://www.frontendmentor.io).
 
 ## **Overview**
 
